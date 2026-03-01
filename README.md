@@ -19,12 +19,19 @@ Provides a Flask web UI to arm/disarm the system
 Runs continuously on a Linux host
 
 Architecture
+
 Door Sensor (GPIO)
+
         ↓
+        
 Event Detection
+
         ↓
+        
 Alarm State Manager ────→ Web Control Interface (Flask)
+
         ↓
+        
 Breach Detected?
    ├─ Yes → Activate Siren
    └─ Yes → Send Email Notification
@@ -87,7 +94,7 @@ python alarm_web.py
 
 Then open:
 
-http://<raspberry-pi-ip>:5000
+http://<localhost or raspberry-pi-ip>:5000
 Security Notes
 
 This system is intended for local network use only.
