@@ -1,3 +1,4 @@
+## Raspberry Pi Alarm System — Event-Driven Home Security Service
 Raspberry Pi Alarm System — Event-Driven Home Security Service
 
 This project is a continuously running Linux service that monitors physical door sensors via GPIO, maintains alarm state, triggers an audible alarm on breach, and sends email notifications when an intrusion occurs. A Flask web interface provides a control plane for arming and disarming the system.
