@@ -33,8 +33,12 @@ Alarm State Manager ────→ Web Control Interface (Flask)
         ↓
         
 Breach Detected?
-   ├─ Yes → Activate Siren
-   └─ Yes → Send Email Notification
+
+   ├─ Yes → 
+   Activate Siren
+   
+   └─ Yes → 
+   Send Email Notification
 
 The system is event-driven. Hardware input generates events which are processed by the alarm state manager and routed to appropriate response handlers.
 
